@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link
@@ -5,22 +6,36 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
     <meta charset="UTF-8" />
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="index.css" />
+    <!-- Set the title of the webpage -->
     <title>Personal Dashboard</title>
   </head>
   <body>
+    <!-- Main content of the webpage -->
     <main>
+      <!-- Top section containing cryptocurrency and weather information -->
       <div class="top">
+        <!-- Container for displaying cryptocurrency information -->
         <div id="crypto">
           <div id="crypto-top"></div>
         </div>
+        <!-- Container for displaying weather information -->
         <div id="weather"></div>
       </div>
-
-      <h1 id="time" class="time"></h1>
-      <div class="quote"></div>
+      <!-- Time and quote section -->
+      <div class="time-and-quote">
+        <!-- Heading to display the current time -->
+        <h1 id="time" class="time"></h1>
+        <!-- Container for displaying a quote -->
+        <div class="quote"></div>
+      </div>
+      <!-- Container for displaying author information -->
       <p id="author"></p>
     </main>
+    <!-- Include the external JavaScript file -->
     <script src="index.js"></script>
   </body>
 </html>
+
+<!-- git commit -m "fixed: responsiveness(CSS) by adding a div| formatted: js code"   -->
